@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.03737426.css",
-    "main.js": "/static/js/main.301f5155.js",
+    "main.js": "/static/js/main.8c84687e.js",
     "static/js/787.6e1c3a7c.chunk.js": "/static/js/787.6e1c3a7c.chunk.js",
     "static/media/IndiaToday.gif": "/static/media/IndiaToday.f92f053526bb95147de3.gif",
     "static/media/CultFit.gif": "/static/media/CultFit.45a971117d5f325de91c.gif",
@@ -10,16 +10,17 @@
     "static/media/dp.png": "/static/media/dp.2f7b04ca7c7ddfa5a3c3.png",
     "static/media/Danish Pinjari_Resume.pdf": "/static/media/Danish Pinjari_Resume.8e944c56acd68f31877b.pdf",
     "static/media/node.js.png": "/static/media/node.js.3d2007756ffe62976ee0.png",
+    "static/media/favi_icon_192.png": "/static/media/favi_icon_192.b896f3f99064d85a2102.png",
     "static/media/CSS.png": "/static/media/CSS.5ef4ce04ac1ba6c2519c.png",
     "static/media/project.png": "/static/media/project.991831d0a626b3b8e8b3.png",
     "static/media/name.png": "/static/media/name.1f93da3462046d3ff83c.png",
     "index.html": "/index.html",
     "main.03737426.css.map": "/static/css/main.03737426.css.map",
-    "main.301f5155.js.map": "/static/js/main.301f5155.js.map",
+    "main.8c84687e.js.map": "/static/js/main.8c84687e.js.map",
     "787.6e1c3a7c.chunk.js.map": "/static/js/787.6e1c3a7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03737426.css",
-    "static/js/main.301f5155.js"
+    "static/js/main.8c84687e.js"
   ]
 }
