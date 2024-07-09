@@ -1,0 +1,372 @@
+.App {
+	text-align: center;
+	
+}
+
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+	background-image: url(https://opengear.com/wp-content/uploads/2018/05/StarfieldSimulation.gif);
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+/* main content div */
+#main_div {
+	margin-top: 200px;
+}
+
+/* Navbar Css */
+li a {
+	transition: all 0.3s ease-in-out;
+	line-height: 23px;
+}
+
+li a:hover {
+	background-color: RGB(42, 176, 238);
+	box-shadow: 0 0 20px RGB(42, 176, 238);
+	padding: 0.625rem;
+	border-radius: 0.9375rem;
+}
+
+.ResumeBtn_2 {
+	color: azure;
+	background-color: #47a148;
+	box-shadow: 0 0 20px #47a148;
+	padding: 15px;
+	border-radius: 0.9375rem;
+}
+.ResumeBtn_2:hover {
+	background-color: RGB(42, 176, 238);
+	box-shadow: 0 0 20px RGB(42, 176, 238);
+	/* padding: 0.625rem; */
+	border-radius: 0.9375rem;
+}
+.re-div {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding-left: 50px;
+	margin: 10px 25px;
+	width: auto;
+}
+
+.ResumeBtn:hover {
+	background-color: #47a148;
+	box-shadow: 0 0 20px #47a148;
+	padding: 0.625rem;
+	border-radius: 0.9375rem;
+}
+
+/* Home page css */
+.heading {
+	/* border: 1px solid red; */
+	font-size: 2.4em !important;
+	padding-left: 40px !important;
+	color: azure;
+}
+/* about para */
+.paras {
+	/* className="text-white py-5 max-w-md" */
+	font-size: 1.2rem !important;
+	padding-left: 40px !important;
+	color: azure;
+	max-width: 28rem;
+	padding-top: 1.25rem; /* 20px */
+	padding-bottom: 1.25rem; /* 20px */
+	text-align: justify;
+}
+.about-para {
+	color: azure;
+}
+
+.wave {
+	animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+	animation-duration: 2.1s; /* Change to speed up or slow down */
+	animation-iteration-count: infinite; /* Never stop waving :) */
+	transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+	display: inline-block;
+}
+
+@keyframes wave-animation {
+	0% {
+		transform: rotate(0deg);
+	}
+	10% {
+		transform: rotate(14deg);
+	} /* The following five values can be played with to make the waving more or less extreme */
+	20% {
+		transform: rotate(-8deg);
+	}
+	30% {
+		transform: rotate(14deg);
+	}
+	40% {
+		transform: rotate(-4deg);
+	}
+	50% {
+		transform: rotate(10deg);
+	}
+	60% {
+		transform: rotate(0deg);
+	} /* Reset for the last half to pause */
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+/* Home CSS */
+.Typewriter__wrapper {
+	font-size: 2.2em !important;
+	color: #89d3e2 !important;
+	font-weight: 600 !important;
+}
+.Typewriter__cursor {
+	font-size: 2.4em !important;
+	color: #6ce5ea !important;
+}
+.heading-name {
+	color: white;
+	font-size: 2.5em !important;
+	padding-left: 45px !important;
+}
+
+.main-name {
+	color: #40aabf;
+}
+
+/** Profile */
+@media (max-width: 750px) and (max-height: 1000px) {
+	#profile {
+		/* border: 1px solid red; */
+		width: 40%;
+		z-index: 1;
+
+		position: relative;
+	}
+	#about {
+		position: relative;
+		/* border: 1px solid yellow; */
+		height: 5%;
+	}
+}
+@media (max-width: 400px) {
+	#profile {
+		/* border: 1px solid red; */
+		width: 45%;
+		z-index: 1;
+
+		position: relative;
+	}
+	#ab-p {
+		position: relative;
+		top: 2.3125rem;
+		left: 3.125rem;
+		font-size: 30px;
+		text-align: center;
+	}
+	#about {
+		/* border: 1px solid red; */
+		height: 5%;
+		position: relative;
+
+		text-align: justify;
+	}
+	#para-c {
+		font-size: 1.5625rem;
+	}
+	/* skills section */
+	#sub_cont {
+		/* border: 1px solid yellow; */
+		position: relative;
+		top: 30px;
+	}
+	#skills {
+		/* border: 1px solid red; */
+		width: 70%;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(auto-fill, 1fr);
+		margin: auto;
+	}
+	#sk_h {
+		position: relative;
+		top: 15px;
+	}
+	#sk_p {
+		font-size: 1rem;
+		position: relative;
+		top: 20px;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		font-weight: 600;
+	}
+	/*  projects page */
+
+	#proj-p {
+		/* border: 1px solid red; */
+		position: relative;
+		top: 40px;
+	}
+	#proj_2 {
+		position: relative;
+		top: 20px;
+		font-size: 15px;
+		font-weight: 600;
+	}
+}
+
+/* Skills Tech Stack */
+.tech-Stack-img {
+	margin: auto;
+	width: 95%;
+}
+/* Git hub part */
+.project-heading {
+	color: white !important;
+	font-size: 2.3em !important;
+	font-weight: 500 !important;
+	padding-top: 10px !important;
+}
+
+/* * Skills section */
+
+@media (min-width: 420px) and (max-width: 767px) {
+	#sub_cont {
+		/* border: 1px solid yellow; */
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	#skills {
+		width: 70%;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(auto-fill, 1fr);
+		margin: auto;
+		margin-top: -10px;
+		justify-content: center;
+	}
+}
+
+/* Footer */
+/* --------- */
+.footer {
+	background-color: rgb(10, 4, 22);
+	bottom: 0 !important;
+	padding-top: 10px !important;
+	padding-bottom: 8px !important ;
+}
+.footer-copywright {
+	text-align: center !important;
+}
+
+.footer-body {
+	text-align: center !important;
+}
+
+@media (max-width: 767px) {
+	.footer-copywright {
+		text-align: center !important;
+	}
+
+	.footer-body {
+		text-align: center !important;
+	}
+}
+
+.footer h3 {
+	font-size: 1em;
+	color: white !important;
+	margin-top: 0.5em !important;
+	margin-bottom: 0.5em !important;
+}
+.footer-icons {
+	margin-top: 0.5em !important;
+	margin-bottom: 0.5em !important;
+	padding: 0 !important;
+}
+
+.blockquote-footer {
+	color: #a588c0 !important;
+}
+.social-icons {
+	display: inline-block !important;
+	padding-right: 15px;
+	padding-left: 15px;
+	/* border: 1px solid red; */
+	font-size: 30px;
+}
+
+/* * Go to top button */
+.top-to-btm {
+	position: relative;
+}
+.icon-position {
+	position: fixed;
+	bottom: 40px;
+	right: 25px;
+	z-index: 20;
+}
+.icon-style {
+	background-color: #209db6;
+	border: 2px solid rgb(14, 181, 131);
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	color: azure;
+	cursor: pointer;
+	animation: movebtn 3s ease-in-out infinite;
+	transition: all 0.5s ease-in-out;
+}
+.icon-style:hover {
+	animation: none;
+	background-color: RGB(42, 176, 238);
+	box-shadow: 0 0 50px RGB(42, 176, 238);
+}
+@keyframes movebtn {
+	0% {
+		transform: translateY(0px);
+	}
+	25% {
+		transform: translateY(20px);
+	}
+	50% {
+		transform: translateY(0px);
+	}
+	75% {
+		transform: translateY(-20px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
